@@ -17,11 +17,11 @@ public class Main {
         int initializer = 0;
         while ((scannerVar.equals("DiceA") || scannerVar.equals("DiceB") || scannerVar.equals("DiceC") || scannerVar.equals("Battery") || scannerVar.equals("String")) || initializer < 1 ) {
             System.out.print(MessageFormat.format("Please choose a program below or type \"exit\" to exit: \n{0}\n{1}\n{2}\n{3}\n{4}",
-                    " - Type \"DiceA\" to run the Dice Class: Assignment Part A",
-                    " - Type \"DiceB\" to run the Dice Class: Part  B",
-                    " - Type \"DiceC\" to run the Dice Class: Part  C",
+                    " - Type \"DiceA\" to run the Dice Class: Assignment Part A Program",
+                    " - Type \"DiceB\" to run the Dice Class: Assignment Part B Program",
+                    " - Type \"DiceC\" to run the Dice Class: Assignment Part C Program",
                     " - Type \"Battery\" to run the Battery Program",
-                    " - Type \"String\" to run the StringPart Program\n $ "));
+                    " - Type \"String\" to run the String-Part Program\n $ "));
             scannerVar = scan.next();
             initializer++;
             if (scannerVar.equals("DiceA")) {
